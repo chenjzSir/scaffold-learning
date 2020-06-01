@@ -39,17 +39,16 @@ import com.github.pagehelper.PageInfo;
 @RequestMapping("FileController")
 public class FileController extends BaseController{
 
-	//跳转页面参数
+	/** 跳转页面参数**/
 	private String prefix = "admin/file";
 	
 	@GetMapping("view")
 	@RequiresPermissions("system:file:view")
-    public String view(Model model)
-    {	
-		
-		setTitle(model, new TitleVo("上传图片列表", "图片管理", false,"欢迎进入图片页面", false, false));
-        return prefix + "/list";
-    }
+	public String view(Model model) {
+
+		setTitle(model, new TitleVo("上传图片列表", "图片管理", false, "欢迎进入图片页面", false, false));
+		return prefix + "/list";
+	}
 	
 	/**
 	 * 文件列表
@@ -82,25 +81,20 @@ public class FileController extends BaseController{
      */
     @PostMapping("/upload")
     @ResponseBody
-    public AjaxResult updateAvatar(@RequestParam("file") MultipartFile file)
-    {
-        try
-        {
-            if (!file.isEmpty())
-            {
-                //插入文件存储表
-            	String id=sysDatasService.insertSelective(file);
-                if(id!=null){
-                	 return AjaxResult.successData(200, id);
-                }
-            }
-            return error();
-        }
-        catch (Exception e)
-        {
-            return error(e.getMessage());
-        }
-    }
+	public AjaxResult updateAvatar(@RequestParam("file") MultipartFile file) {
+		try {
+			if (!file.isEmpty()) {
+				//插入文件存储表
+				String id = sysDatasService.insertSelective(file);
+				if (id != null) {
+					return AjaxResult.successData(200, id);
+				}
+			}
+			return error();
+		} catch (Exception e) {
+			return error(e.getMessage());
+		}
+	}
 	
     /**
      * 文件添加
