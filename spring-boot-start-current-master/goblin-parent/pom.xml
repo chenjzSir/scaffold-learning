@@ -71,7 +71,7 @@
 		<jasypt-spring-boot-starter.version>2.1.0</jasypt-spring-boot-starter.version>
 		<easyexcel.version>1.0.3</easyexcel.version>
 		<drools.version>7.15.0.Final</drools.version>
-		<xstream.version>1.4.10</xstream.version>
+		<xstream.version>1.4.10-java7</xstream.version>
 		<jodd-core.version>5.0.6</jodd-core.version>
 		<jodd-bean.version>5.0.6</jodd-bean.version>
 		<jodd-props.version>5.0.6</jodd-props.version>
