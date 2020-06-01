@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.goblin.manage.mapper.SmsSubscribeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.goblin.manage.bean.domain.SmsSubscribe">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="sms_phone" property="smsPhone" />
+        <result column="mobile_operators" property="mobileOperators" />
+        <result column="sms_content" property="smsContent" />
+        <result column="sms_send_time" property="smsSendTime" />
+        <result column="sms_send_state" property="smsSendState" />
+        <result column="sms_send_retry_number" property="smsSendRetryNumber" />
+        <result column="sms_send_retry_count" property="smsSendRetryCount" />
+        <result column="remark" property="remark" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, user_id, sms_phone, mobile_operators, sms_content, sms_send_time, sms_send_state, sms_send_retry_number, sms_send_retry_count, remark, create_time, update_time
+    </sql>
+
+</mapper>

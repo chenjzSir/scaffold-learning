@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="goblin-admin-ui" />
+        <module name="goblin-basic-config" />
+        <module name="goblin-cache" />
+        <module name="goblin-common" />
+        <module name="goblin-generator" />
+        <module name="goblin-manage-system-bean" />
+        <module name="goblin-manage-system-dao" />
+        <module name="goblin-manage-system-service" />
+        <module name="goblin-manage-system-webapp" />
+        <module name="goblin-scheduling" />
+        <module name="goblin-security" />
+        <module name="springboot_v2_1" />
+        <module name="springboot_v2_2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="goblin" target="1.8" />
+      <module name="goblin-admin-ui" target="1.8" />
+      <module name="goblin-basic-config" target="1.8" />
+      <module name="goblin-cache" target="1.8" />
+      <module name="goblin-common" target="1.8" />
+      <module name="goblin-generator" target="1.8" />
+      <module name="goblin-manage-system" target="1.8" />
+      <module name="goblin-manage-system-bean" target="1.8" />
+      <module name="goblin-manage-system-dao" target="1.8" />
+      <module name="goblin-manage-system-service" target="1.8" />
+      <module name="goblin-manage-system-webapp" target="1.8" />
+      <module name="goblin-parent" target="1.8" />
+      <module name="goblin-scheduling" target="1.8" />
+      <module name="goblin-security" target="1.8" />
+      <module name="springboot_v2_1" target="1.8" />
+      <module name="springboot_v2_2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

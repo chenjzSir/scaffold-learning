@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-admin-ui/goblin-admin-ui.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-admin-ui/goblin-admin-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-basic-config/goblin-basic-config.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-basic-config/goblin-basic-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-cache/goblin-cache.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-cache/goblin-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-common/goblin-common.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-common/goblin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-generator/goblin-generator.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-generator/goblin-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-manage-system/goblin-manage-system.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-manage-system/goblin-manage-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-manage-system/goblin-manage-system-bean/goblin-manage-system-bean.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-manage-system/goblin-manage-system-bean/goblin-manage-system-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-manage-system/goblin-manage-system-dao/goblin-manage-system-dao.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-manage-system/goblin-manage-system-dao/goblin-manage-system-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-manage-system/goblin-manage-system-service/goblin-manage-system-service.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-manage-system/goblin-manage-system-service/goblin-manage-system-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-manage-system/goblin-manage-system-webapp/goblin-manage-system-webapp.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-manage-system/goblin-manage-system-webapp/goblin-manage-system-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-parent/goblin-parent.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-parent/goblin-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-scheduling/goblin-scheduling.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-scheduling/goblin-scheduling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-current-master/goblin-security/goblin-security.iml" filepath="$PROJECT_DIR$/spring-boot-start-current-master/goblin-security/goblin-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/scaffold-learning.iml" filepath="$PROJECT_DIR$/.idea/scaffold-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_v2_1-master/springboot_v2_1.iml" filepath="$PROJECT_DIR$/SpringBoot_v2_1-master/springboot_v2_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Springboot_v2_2-master/springboot_v2_2.iml" filepath="$PROJECT_DIR$/Springboot_v2_2-master/springboot_v2_2.iml" />
+    </modules>
+  </component>
+</project>
